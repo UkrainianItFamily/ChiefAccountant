@@ -1,0 +1,18 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/news/axios.js": "/js/news/axios.js",
+    "/js/news/axios-tag.js": "/js/news/axios-tag.js",
+    "/js/currencyRates/axios.js": "/js/currencyRates/axios.js",
+    "/js/published/axios.js": "/js/published/axios.js",
+    "/js/published/adminAxios.js": "/js/published/adminAxios.js",
+    "/js/report/lightbox/fslightbox.js": "/js/report/lightbox/fslightbox.js",
+    "/js/report/report.js": "/js/report/report.js",
+    "/js/usefulLink/adminEditModal.js": "/js/usefulLink/adminEditModal.js",
+    "/js/mainSlider/adminEditModal.js": "/js/mainSlider/adminEditModal.js",
+    "/ckeditor5/textareaToCkeditor.js": "/ckeditor5/textareaToCkeditor.js",
+    "/js/modalWindows.js": "/js/modalWindows.js",
+    "/js/reportRedactions/sendCreateForm.js": "/js/reportRedactions/sendCreateForm.js",
+    "/js/report/createReport.js": "/js/report/createReport.js",
+    "/js/report/reportCategories.js": "/js/report/reportCategories.js",
+    "/css/app.css": "/css/app.css"
+}

@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Actions\User;
+
+use App\Repositories\User\UserRepositoryInterface;
+
+class GetUserByIdAction
+{
+    private UserRepositoryInterface $userRepository;
+
+    public function __construct(UserRepositoryInterface $userRepository)
+    {
+        $this->userRepository = $userRepository;
+    }
+
+    public function execute(GetUserByIdRequest $request): GetUserByIdResponse
+    {
+      $user = $this->userRepository->getUserById($request->getId());
+
+      return new GetUserByIdResponse($user);
+    }
+}
